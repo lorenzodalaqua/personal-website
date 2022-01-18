@@ -1,0 +1,105 @@
+{
+  "basics": {
+    "name": "Lorenzo Dal'Aqua",
+    "label": "Full Stack Developer",
+    "email": "lorenzodalaqua@gmail.com",
+    "summary": "I am a full stack web developer focused on building software that creates value for users and stakeholders. While pursuing my degree in Computer Science, I have co-founded Aprimoramente, a company which helps people find where to learn in Brazil. I worked there as the single developer since and now am ready for the next step in my career. I believe in understanding the real needs the software I write addresses and the impact of technical decisions, and my experience has given me an awareness of the full context the code I write exists in. I love solving problems and debugging, learning new technologies, and most of all building great software.",
+    "location": {
+      "city": "Porto Alegre",
+      "countryCode": "BR",
+      "region": "RS"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "url": "https://www.linkedin.com/in/lorenzo-dal-aqua-a73037198/"
+      },
+      {
+        "network": "Github",
+        "url": "https://github.com/lorenzodalaqua"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Federal University of Rio Grande do Sul",
+      "website": "http://ufrgs.br",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2012-03-01",
+      "endDate": "2018-03-01"
+    },
+    {
+      "institution": "TU Kaiserslautern",
+      "location": {
+        "city": "Kaiserslautern",
+        "countryCode": "DE"
+      },
+      "website": "https://www.uni-kl.de/en/",
+      "area": "Computer Science (Study Abroad)",
+      "studyType": "Bachelor",
+      "startDate": "2014-03-21",
+      "endDate": "2015-01-28"
+    }
+  ],
+  "work": [
+    {
+      "name": "Aprimoramente",
+      "position": "Co-Founder",
+      "website": "https://aprimoramente.com",
+      "startDate": "2015-08-01",
+      "summary": "Developed and evolved the whole application since the company's foundation. From design, user experience, SEO and accessibility in the front end, through performant data access and search in the back end, to multiple internal tools for content management and infrastructure as code to manage AWS resources. Learned how to work in a fast changing requirements project, to focus on feedback and on the features that will create value for the business, and handling my own past technical decisions. Wrote the code that helped one million users find where to learn in 2021."
+    },
+    {
+      "name": "TU Kaiserslautern / WIPOTEC",
+      "position": "Undergraduate Researcher",
+      "startDate": "2014-02-10",
+      "endDate": "2015-02-02",
+      "summary": "Collaborated in an international, cross-organizational team on a research project with the goal of improving the performance of an image processing pipeline through the implementation of FPGA architectures."
+    },
+    {
+      "name": "UFRGS / Hewlett-Packard",
+      "position": "Undergraduate Researcher",
+      "startDate": "2012-03-15",
+      "endDate": "2013-12-12",
+      "summary": "Research in partnership between the Federal University of Rio Grande do Sul (UFRGS) and Hewlett-Packard for developing a novel method for performing view synthesis from multiple camera images based on the warping of triangles."
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": ["Javascript", "React", "Nextjs", "HTML", "CSS/Sass"]
+    },
+    {
+      "name": "Backend",
+      "keywords": ["Nodejs", "PHP", "Laravel", "SQL", "Python", "Serverless"]
+    },
+    {
+      "name": "Devops",
+      "keywords": ["AWS", "Ansible"]
+    },
+    {
+      "name": "Methodologies and tools",
+      "keywords": ["Scrum", "TDD", "Git"]
+    },
+    {
+      "name": "Other Languages",
+      "keywords": ["C", "C++"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
+    }
+  ]
+}

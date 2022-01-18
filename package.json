@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal website for Lorenzo Dal'Aqua",
   "scripts": {
-    "build": "eleventy",
+    "build": "node build-resume.js && eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
@@ -28,5 +28,8 @@
     "luxon": "^2.3.0",
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.4.1"
+  },
+  "dependencies": {
+    "jsonresume-theme-autumn": "^1.0.1"
   }
 }
