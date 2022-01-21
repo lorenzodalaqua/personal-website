@@ -1,19 +1,18 @@
 ---
 layout: layouts/home.njk
-eleventyNavigation:
-  key: Home
-  order: 1
 ---
 {% set maxPosts = collections.posts.length | min(1) %}
 
 <h1>Lorenzo</h1>
 
-This is my personal page
+<p>TODO: Picture</p>
 
-<h2>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2>
+<p>TODO: Summary</p>
+
+<h2>Writing</h2>
 
 {% set postslist = collections.posts | head(-2) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p>You can find all my writing in the <a href="{{ '/posts/' | url }}">Posts page</a>.</p>
